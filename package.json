@@ -1,6 +1,6 @@
 {
   "name": "react-http-status",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Set the HTTP status code from inside React components",
   "author": "Tijn Kersjes <tijn@divbyzero.nl>",
   "mantainers": [
