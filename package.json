@@ -1,6 +1,6 @@
 {
   "name": "konnektid-react-status",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Set the HTTP status code from inside React components",
   "author": "Tijn Kersjes <tijn@divbyzero.nl>",
   "contributors": [
