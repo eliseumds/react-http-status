@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "Set the HTTP status code from inside React components",
   "author": "Tijn Kersjes <tijn@divbyzero.nl>",
+  "contributors": [
+    "Simone Potenza <simone.potenza@gmail.com"
+  ],
   "main": "dist/index.js",
   "scripts": {
     "clean": "git clean -dfX",
@@ -14,17 +17,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Konnektid/konnektid-react-status.git"
+    "url": "git+https://github.com/rewop/react-http-status.git"
   },
   "bugs": {
-    "url": "https://github.com/Konnektid/konnektid-react-status/issues"
+    "url": "https://github.com/rewop/react-http-status/issues"
   },
-  "homepage": "https://github.com/Konnektid/konnektid-react-status#readme",
+  "homepage": "https://github.com/rewop/react-http-status#readme",
   "license": "MIT",
-  "private": true,
   "dependencies": {
     "babel-cli": "^6.6.5",
-    "babel-preset-konnektid": "github:konnektid/babel-preset-konnektid",
     "react-side-effect": "^1.0.2"
   },
   "peerDependencies": {
