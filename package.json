@@ -3,8 +3,8 @@
   "version": "0.0.3",
   "description": "Set the HTTP status code from inside React components",
   "author": "Tijn Kersjes <tijn@divbyzero.nl>",
-  "contributors": [
-    "Simone Potenza <simone.potenza@gmail.com"
+  "mantainers": [
+    "Simone Potenza <simone.potenza@gmail.com>"
   ],
   "main": "dist/index.js",
   "scripts": {
