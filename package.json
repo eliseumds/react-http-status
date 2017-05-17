@@ -3,16 +3,17 @@
   "version": "0.0.5",
   "description": "Set the HTTP status code from inside React components",
   "author": "Tijn Kersjes <tijn@divbyzero.nl>",
-  "mantainers": [
+  "contributors": [
     "Simone Potenza <simone.potenza@gmail.com>"
   ],
   "main": "dist/index.js",
   "scripts": {
-    "clean": "git clean -dfX",
+    "clean": "rm -rf dist",
     "build": "babel src --ignore __test__ --out-dir dist",
     "watch": "babel src --ignore __test__ --watch --out-dir dist",
     "test": "babel-node node_modules/.bin/babel-istanbul cover --root src/ --include-all-sources _mocha -- --recursive $(find src -name __test__ -not -path '*/node_modules/*')",
-    "check-coverage": "babel-istanbul check-coverage --statements 80 --branches 70 --functions 60"
+    "check-coverage": "babel-istanbul check-coverage --statements 80 --branches 70 --functions 60",
+    "prepublish": "yarn run test && yarn run clean && yarn run build"
   },
   "repository": {
     "type": "git",
