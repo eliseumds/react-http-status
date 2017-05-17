@@ -11,7 +11,6 @@
     "clean": "git clean -dfX",
     "build": "babel src --ignore __test__ --out-dir dist",
     "watch": "babel src --ignore __test__ --watch --out-dir dist",
-    "postinstall": "npm run build",
     "test": "babel-node node_modules/.bin/babel-istanbul cover --root src/ --include-all-sources _mocha -- --recursive $(find src -name __test__ -not -path '*/node_modules/*')",
     "check-coverage": "babel-istanbul check-coverage --statements 80 --branches 70 --functions 60"
   },
@@ -26,6 +25,7 @@
   "license": "MIT",
   "dependencies": {
     "babel-cli": "^6.6.5",
+    "babel-preset-react": "^6.24.1",
     "react-side-effect": "^1.0.2"
   },
   "peerDependencies": {
@@ -33,6 +33,7 @@
   },
   "devDependencies": {
     "babel-istanbul": "^0.7.0",
+    "babel-preset-env": "^1.4.0",
     "chai": "^3.3.0",
     "mocha": "^2.3.3",
     "react": "^15.0.0"

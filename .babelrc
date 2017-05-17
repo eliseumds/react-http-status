@@ -1,3 +1,3 @@
 {
-    "presets": "konnektid"
+  "presets": ["env", "react"]
 }
